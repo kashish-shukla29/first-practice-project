@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#nav {
+  position: sticky;
+  top: 0;
+  background-color: black ;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  z-index: 90;
+}
+.a>a{
+  border-right: 1px solid white;
+  align-items: center;
+  color: white;
+  padding-left: 10px;
+  padding-right: 30px;
+  margin: 15px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.a>a:hover {
+  color: yellow;
+}
+.a {
+  transform: translate(10px);
+}
+.x {
+  border: none;
+}
+#home {
+  gap: 10px;
+  box-shadow: 0px 0px 10px 10px rgba(116, 116, 116, 0.904);
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.932);
+}
+.frunt {
+  margin-left: 290px;
+  padding-right: 20px;
+  padding-top: 70px;
+  font-size: 35px;
+}
+.img2 {
+  height: 500px;
+  width: 500px;
+  padding-left: 80px;
+}
+.button {
+  padding: 27px;
+  margin-top: 40;
+  margin-left: 200px;
+  width: 200px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+}
+.button2 {
+  padding: 27px;
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 200px;
+  border: none;
+  background-color: yellow;
+  color: black;
+}
+#about {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 0px 0px yellow;
+}
+.lorem {
+  float: left;
+  color: azure;
+  text-align: justify;
+  box-shadow: 0px 0px 10px white;
+  margin: 25px;
+}
+.video {
+  box-shadow: 0px 0px 10px white;
+}
+.video2 {
+  height: 100px;
+  width: 100px;
+}
+.watch {
+  padding-left: 300px;
+  padding-top: 20px;
+}
+#pricing {
+  display: flex;
+}
+
+.table3 {
+  border-radius: 10px;
+  margin-left: 50px;
+  padding-left: 30px;
+  box-shadow: 0px 0px 30px gray;
+  background-color: rgba(255, 255, 255, 0.459);
+  width: 330px;
+  height: 200px;
+  align-items: center;
+}
+.table2 {
+  border-radius: 10px;
+  margin-left: 40px;
+  padding-left: 30px;
+  box-shadow: 0px 0px 30px gray;
+  background-color: rgba(255, 255, 255, 0.459);
+  width: 330px;
+  height: 200px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.table1 {
+  border-radius: 10px;
+  margin-left: 40px;
+  padding-left: 30px;
+  box-shadow: 0px 0px 30px gray;
+  background-color: rgba(255, 255, 255, 0.459);
+  width: 330px;
+  height: 200px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.simp {
+  padding: 20px;
+  margin-left: 30px;
+  width: 150px;
+  padding-top: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.rate {
+  padding: 20px;
+  margin-left: 30px;
+  width: 150px;
+  padding-top: 10px;
+  background-color: yellow;
+  color: white;
+  text-align: center;
+  color: black;
+}
+#images {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 0, 0.753);
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.img1 {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px grey;
+}
+
+
+@media screen and (max-width:1200px){
+
+    .pricing {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+          }
+          .images{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        .about{
+            flex-direction: column;
+        }
+        .button2{
+           flex-direction: column;
+        }
+        .button2{
+            flex-direction: column;
+         }
+        .mai{
+                flex-direction: column;
+         }
+         .home{
+           flex-direction: column;
+         }
+        .img2{
+          justify-content: center;
+        }
+      }
+      #follow{
+  margin-left: 400px;
+      }
+      #mail{
+        margin-left: 400px;
+        padding:20px;
+        width: 600px;
+       
+      }
+      #send{
+       margin-left:600px;
+       background-color:yellow;
+       padding:20px;
+       width: 300px;
+       font-size: 20px;
+       align-items: center;
+       margin-bottom:20px;
+       
+      }
+      #nav1{
+        display: flex;
+justify-content: end;
+background-color: gray;
+gap: 60px;
+
+
+      }
+      #nav2{
+ font-size:20px;
+ color: white;
+ text-decoration: none;
+ padding: 10px;
+ border-right: 1px solid white;
+      }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nav {
+  position: sticky;
+  top: 0;
+  background-color: black ;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  z-index: 90;
+}
+#a>a{
+  border-right: 1px solid white;
+  align-items: center;
+  color: white;
+  padding-left: 10px;
+  padding-right: 30px;
+  margin: 15px;
+  font-size: 16px;
+  text-decoration: none;
+}
+#a>a:hover {
+  color: yellow;
+}
+
+        .form{
+            background-color: palevioletred;
+        }
+        .frunt{
+            background-color: skyblue;
+            color:black;
+           margin-right: 100px; 
+           margin-left: 100px;    
+           margin-top:10px;  
+           padding-left: 350px;
+        
+                              
+        }
+        .ragi{
+            padding-left: 70px;
+            font-size: 35px;
+            padding-top:20px;
+        
+
+        }
+        .a{
+         width: 500px;
+        padding-top:8px;
+        padding-bottom: 8px;
+         align-content: center;
+        border-radius: 3px;
+        }
+         .b{
+            background-color: green;
+            color: wheat;
+            width: 500px;
+            margin-top: 20px;
+            padding: 15px;
+            border-radius:3px;
+         }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <img src="../project - Copy/images/logo.png" height="100" class="logo"> 
+        <nav id="a">
+          <a href="../project - Copy/pro1.html#home">HOME</a>
+          <a href="../project - Copy/pro1.html#about">ABOUT</a>
+          <a  href="../project - Copy/pro1.html#pricing">PRICING</a>
+          <a href="../project - Copy/pro1.html#images">IMAGES</a>
+          <a href="../project - Copy/pro1.html#Register">RAGISTER</a>
+        </nav>
+        </div>
+    <span action="ks.html" onsubmit="return infor()">
+    <div class="form">
+    <div class="frunt">
+    <h4 class="ragi">Ragistration Form</h4>
+    <br><br>
+    <h class="blank"></h>
+    <h4 class="firt">First name</h4>
+    <input type="text" placeholder="Firstname" class="a">
+    <h4 class="midd">Middlename:</h4>
+    <input type="text" placeholder="Middlename" class="a">
+    <h4 class="last">Lstname:</h4>
+    <input type="text" placeholder="Lastname" class="a">
+    <h4>Gender:</h4>
+    <input type="radio" tnc>male
+    <input type="radio" tnc>female
+    <input type="radio"tnc >other
+    <h4 class="pho">Phone</h4>
+    <input type="number" placeholder="+91" class="a"><br><br>
+    <input type="number" placeholder="phone no" class="a">
+    <h4 class="mail">Email</h4>
+    <input type="text" placeholder="Enter Email" class="a"><br>
+    <button class="b">Submit</button>
+    <button class="b">Reset</button>
+    </div>
+    </div>
+    </span>
+    <script src="ks.js"></script>
+</body>
+</html>
